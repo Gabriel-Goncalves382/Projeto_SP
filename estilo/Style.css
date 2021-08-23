@@ -1,0 +1,232 @@
+/* RESET  */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: normal;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    font-size: 1em;
+    color: #777;
+}
+
+/* Cabeçalho */
+.cabecalho {
+    width: 100%;
+    float: left;
+    padding: 50px 8%;
+    background-color: #bb0000;
+}
+
+.logo a {
+    width: 300px;
+    height: 100px;
+    float: left;
+    background-image: url(../imagens/brasao-estado-de-sao-paulo.png);
+    font-size: 0;
+}
+
+.cabecalho img{
+    width: 90px;
+    height: 95px;
+    float: left;
+}
+
+
+.cabecalho h2{
+    width: 65%;
+    float:right;
+    font-size: 6em;
+}
+/*Menu*/
+
+.menu{
+    width: 100%;
+    float:left;
+    background: #eee;
+    padding: 18px 8%;
+    max-height: 55px;
+}
+
+.menu li{
+    float: left;
+    text-align: center;
+}
+
+.menu li a{
+    text-align: center;
+    color: #222;
+    margin-right: 25px;
+}
+
+.menu li a:hover{
+    color: #bb0000;
+    font-size: 1.1em;
+}
+
+/* Principal */
+
+.principal{
+width: 100%;
+float: left;
+padding: 16px 8%;
+}
+
+.principal h2{
+    text-align: center;
+    margin: 40px 0 30px;
+    font-size: 3em;
+
+}
+
+.principal p{
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.principal pre{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.principal img{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width:500px;
+    height:400pxs;
+    margin: auto;
+    display: block;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.principal a{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.links{
+    text-align: center;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #111;
+    border: solid black 1px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.links:link{
+    color: #bb0000;
+    background-color:transparent;
+}
+
+.links:active{
+    color: #bb0000;
+    background-color:transparent;
+}
+
+.links:visited{
+    color: #bb0000;
+    background-color:transparent;
+}
+
+.links:hover{
+    color: #bb0000;
+    background-color:transparent;
+}
+
+.rodape{
+    width: 100%;
+    float: left;
+    background-color: #b00;
+    padding: 25px 8%;
+}
+
+.rodape p{
+    color: #fff;
+}
+
+/* sitemap */
+
+#Topo{
+    transition: 2s;
+}
+
+#colocado1{
+transition: 1.5s;
+}
+
+#colocado2{
+    transition: 1.5s;
+}
+
+#colocado3{
+    transition: 1.5s;
+}
+
+#colocado4{
+    transition:2s;
+}
+
+#colocado5{
+    transition: 1.5;
+}
+
+#colocado6{
+    transition: 1.5;
+}
+
+#colocado7{
+    transition: 2s;
+}
+
+#colocado8{
+    transition: 2;
+}
+
+#colocado9{
+    transition: 1.5;
+}
+
+#colocado10{
+    transition: 1.5;
+}
+
+/* Responsividade */
+
+@media screen and(max-width:320px){
+
+    .cabecalho h2{
+        font-size: 1em;
+    }
+
+    .menu{
+    height: 80px;
+    }
+
+}
